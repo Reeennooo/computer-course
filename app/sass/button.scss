@@ -1,0 +1,12 @@
+@import "vars";
+@import "extend";
+.button {  
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  background-image: $gradientFiolet;
+}
+
+.button:hover {
+  background-image: $gradient;
+}

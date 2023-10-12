@@ -1,0 +1,249 @@
+@media(max-width: 1270px) {
+  
+  .about-us__border {
+    flex-basis: 340px;
+    height: 340px;
+    }
+    .about-us__text {
+      flex-basis: 400px;
+    }
+  //Main
+  .el-img-block {
+    padding: 20px 20px;
+  }
+}
+
+@media(max-width: 1100px) {
+  .top-line__button {
+    position: relative;
+    left: -10px;
+    width: 183px;
+    height: 44px;
+    line-height: 44px;
+  }
+}
+
+@media(max-width: 1000px) {
+  .el-img-block {
+    padding: 20px 8px;
+  }
+}
+
+@media(max-width: 880px) {
+  
+  .top-line {
+   flex-direction: column;
+   padding: 0;
+   align-items: center;
+  }
+  .top-line__img {margin: 20px 0;}
+  .top-line__menu {margin-bottom: 20px;}
+  .top-line__button {left: 5px;}
+
+  .banner__text{
+    font-size: 60px;
+    white-space: inherit;
+  }
+
+  .banner {
+    margin-top: 200px;
+  }
+
+  .bottom-line__info {
+    flex-basis:  250px;
+    padding: 0 30px;
+  }
+
+  //ABOUT US
+  .about-us__container {
+    flex-direction: column-reverse;
+    p {margin-bottom: 20px;}
+  }
+  .about-us__border {
+    width: 340px;
+    height: 400px;
+    margin-bottom: 50px;
+    }
+
+  //LEARNING 
+  .header-block {
+    margin-top: 100px;
+    img {margin-bottom: 10px;}
+  }
+  //BRANCH 
+  .branch-leftBlock__el {margin-bottom: -20px;}
+  .s-learning {
+    margin: 0;
+    margin-bottom: 150px;
+    width: 100%;
+  }
+
+  //PARTNERS
+  .el-img-block {
+    width: 150px;
+    padding: 20px 8px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
+@media(max-width: 700px) {
+  .top-line__menu {
+    flex-direction: row;
+    align-items: center;
+    a {
+      text-align: center;
+      display: block;
+      text-align: center;
+      border-radius: 50px;
+      width: 150px;
+      height: 40px;
+      line-height: 40px;
+      border: 1px solid gray;
+      transition: background .5s ease;
+      margin-bottom: 10px;
+  
+  &:hover {
+    background-color: rgb(220, 131, 255);
+  }
+    }
+  }
+  
+  .bottom-line__container {width: 100%; margin: 10px;}
+  .bottom-line__button {margin-right: 20px;}
+  .bottom-line__info {display: none;}
+
+  .progress {flex-direction: column;}
+
+  //PARTNERS 
+
+  .s-partners {margin-top: 20px;}
+  .el-img-block {
+    width: 100px;
+    padding: 20px 8px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  .profession-container {
+    flex-direction: column;
+  }
+
+  //TEACHERS
+  .main-teachers__imgblock {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media(max-width: 550px) {
+//MAIN STYLES
+.container-logo .circle {margin-right: 0; margin-bottom: 0;}
+
+//MODAL WINDOW 
+
+.modal .modal__input {
+  width: 200px;
+}
+//HEADER
+  .header-main {
+    height: 1000px;
+    background-image: url('../images/dest/bg-small-screen.png')!important;
+    background-size: cover;
+    background-position: right;
+    background-blend-mode: multiply;
+    background-color: rgb(83, 83, 83);
+  }
+
+.top-line__menu {
+  flex-direction: column;
+  a {margin: 5px 2px;}
+}
+.banner { 
+  margin-top: 370px;
+}
+h1 {font-size: 40px!important;}
+
+.container-logo {
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+
+//S-ABOUT US
+.about-us__container {margin-bottom: 20px;}
+.about-us__border {
+  width: 300px;
+  }
+.computer-image {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  }
+
+//S-START 
+.line-1 {
+  margin-bottom: 20px;
+}
+.line-2 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.line-3 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.line-4 {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.progress__block {
+  .progress__percent{margin-bottom: 10px;}
+  p{margin-bottom: 20px;}
+}
+
+//S-PROFESSION
+.s-profession {margin-top: 50px;}
+.profession-container__el {margin-bottom: 30px;}
+
+//S-PARTNERS 
+.partners{margin-top: 30px;}
+.s-partners {margin-top: 20px;}
+  .el-img-block {
+    width: 70px;
+    padding: 20px 8px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+//S-TEACHERS
+.s-learning {margin-bottom: 70px;}
+
+.main-teachers {
+  margin-top: 25px;
+  flex-direction: column;
+  
+  .main-teachers__name {margin-top: 10px;}
+
+  .main-teachers__card {
+    margin-bottom: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 131, 255);
+    padding: 10px 5px;
+  }
+}
+
+//FOOTER 
+.main-footer {margin-top: 50px;}
+.subscribe-input {width: 160px;}
+.subscribe-button {width: 120px;}
+
+}
